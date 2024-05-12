@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/bgarti.png'); /* URL of your background image */
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the fourth value (0.5) to set the opacity */
+    border: none; /* Remove the border if needed */
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity on hover if desired */
+}
+.card h5 {
+    color: #000000; /* Set the color to white or any other color you prefer */
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #f5f5f5, 0 0 30px #fff; /* Add multiple text shadows to create the glowing effect */
+    font-weight: bold;
+}
+
+.btn.btn-warning.text-white {
+    /* Add your styles here */
+    text-shadow: 0 0 10px #000000, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    color: #fff; /* Example text color */
+    /* Add any other styles you want to apply */
+    font-weight: bold;
+}
+.jumbotron {
+    background-image: url('images/Paimon.png'); /* URL of your background image */
+    background-size: cover; /* Ensures the background image covers the entire jumbotron */
+    background-position: center; /* Centers the background image */
+    color: #fff; /* Text color, adjust as needed */
+}
+.highlighted {
+    border: 2px solid yellow;
+}

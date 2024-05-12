@@ -1,0 +1,15 @@
+.nav-link{
+  font-size: 25px;
+  color: #3B2208;
+  
+}
+/* CSS styling for logo */
+/* CSS styling for logo */
+/*.logo {
+  position: absolute; /* Position the logo absolutely */
+  left: 10px; /* Adjust the left position as needed */
+  top: 50%; /* Position vertically centered */
+  transform: translateY(-50%); /* Center vertically */
+  z-index: 1000; /* Ensure logo is on top of other content */
+}
+*/
